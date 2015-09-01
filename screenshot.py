@@ -36,4 +36,4 @@ class Screenshot(QWebView):
         self._loaded = True
 
 s = Screenshot()
-s.capture('https://www.personare.com.br/astrologia/mapa-astral/mini/resultado/mjxdx_nXCmp-9OPTPyOz2QSA6Il1493OxBPmbQ-HYR8', 'mapaastral.png')
+s.capture('file:///home/dsantos/Dell/Projects/pyPageScreenshot/mandala.html', 'deler.png')
