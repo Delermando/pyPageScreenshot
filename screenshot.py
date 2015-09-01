@@ -1,5 +1,6 @@
 import sys
 import time
+import pprint
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from PyQt4.QtWebKit import *
@@ -22,7 +23,7 @@ class Screenshot(QWebView):
         painter = QPainter(image)
         frame.render(painter)
         painter.end()
-        print 'saving', output_file
+        print 'salvando', output_file
         image.save(output_file)
 
     def wait_load(self, delay=0):
@@ -36,4 +37,4 @@ class Screenshot(QWebView):
         self._loaded = True
 
 s = Screenshot()
-s.capture('file:///home/dsantos/Dell/Projects/pyPageScreenshot/mandala.html', 'deler.png')
+s.capture('file:///home/dalves/Documentos/Repositorios/pyPageScreenshot/mandala.html', 'deler.jpg')
