@@ -1,0 +1,5 @@
+selenium==2.47.1
+PyVirtualDisplay==0.1.5
+Flask==0.10.1
+
+#apt-get install Xvfb
