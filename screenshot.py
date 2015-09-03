@@ -5,7 +5,7 @@ from pyvirtualdisplay import Display
 import sys
 
 
-display = Display(visible=1, size=(600, 700))
+display = Display(visible=0,size=(600, 700))
 display.start()
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
