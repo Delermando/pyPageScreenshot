@@ -12,9 +12,9 @@ chmod +x server.py
 ./server.py
 
 **Usage**  
-<pre><code>http://127.0.0.1:4000/mandala/mandala-query-string</code></pre>  
-<pre><code>http://127.0.0.1:4000/convert/product-code/mandala-query-string</code></pre>
-<pre><code>http://127.0.0.1:3000/image/</code></pre>
+<pre><code>http://127.0.0.1:4000/mandala/{mandala-query-string}</code></pre>  
+<pre><code>http://127.0.0.1:4000/convert/{product-code}/{mandala-query-string}</code></pre>
+<pre><code>http://127.0.0.1:3000/image/{product-code}</code></pre>
   
 **Example**  
 ***Mandala renderizando com base na querie string***  
