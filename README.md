@@ -1,11 +1,12 @@
 # pyPageScreenshot
 
-**Install**
-virtualenv --distribute --setuptools pythonLib
-source pythonLib/bin/activate
-pip install -r requirements.txt
-cp chromedriver /usr/bin/
-apt-get install Xvfb
+**Install**  
+virtualenv --distribute --setuptools pythonLib  
+source pythonLib/bin/activate  
+pip install -r requirements.txt  
+cp chromedriver /usr/bin/  
+apt-get install Xvfb 
+chmod +x server.py  
 
 **UP Server**  
 ./server.py
