@@ -1,6 +1,7 @@
 *.pyc
 pythonLib/
 bin/
+app/static/mandalas/*
 include/
 lib/
 local/
